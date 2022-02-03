@@ -10,4 +10,12 @@ public class Rational{
     public int getDen(){
         return den;
     }
+    
+    // setters
+    public void setNum(int n){
+        num = n;
+    }
+    public void setDen(int d){
+        den = d;
+    }
 }
