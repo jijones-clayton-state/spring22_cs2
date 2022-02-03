@@ -1,6 +1,9 @@
 public class RationalDemo{
     public static void main(String[] args){
-        Rational num = new Rational();
-        num.num = 2;
+        Rational r1 = new Rational();
+        System.out.println(r1.getNum() + " / " + r1.getDen());
+        
+        Rational r2 = new Rational();
+        System.out.println(r2.getNum() + " / " + r1.getDen());
     }
 }
