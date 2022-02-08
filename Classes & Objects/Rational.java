@@ -18,4 +18,10 @@ public class Rational{
     public void setDen(int d){
         den = d;
     }
+    
+    // no-args constructor
+    public Rational(){
+        num = 0;
+        den = 1;
+    }
 }
