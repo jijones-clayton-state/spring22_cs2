@@ -8,5 +8,8 @@ public class RationalDemo{
         
         Rational r2 = new Rational();
         System.out.println(r2.getNum() + " / " + r2.getDen());
+        
+        Rational r3 = new Rational(2, 3);
+        System.out.println(r3.getNum() + " / " + r3.getDen());
     }
 }

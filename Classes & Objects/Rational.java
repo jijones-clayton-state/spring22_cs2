@@ -24,4 +24,22 @@ public class Rational{
         num = 0;
         den = 1;
     }
+    
+    // parameterized constructor
+    public Rational(int num, int den){
+        this.num = num;
+        this.den = den;
+    }
+    
+    // classes can contain methods that aren't getters,
+    // setters, and constructors!
+    public void negate(){
+        num = -num;
+    }
+    
+    public void invert(){
+        int helper = num;
+        num = den;
+        den = helper;
+    }
 }
