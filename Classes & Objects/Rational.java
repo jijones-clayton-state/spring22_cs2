@@ -64,4 +64,17 @@ public class Rational{
         // we're just actually inverting the numbers that already 
         // exist in the class
     }
+    
+    // toString method to describe how a Rational object should
+    // be represented as a String (e.g., when printed)
+    public String toString(){
+        // return a String containing the appropriate representation
+        // for objects of this class
+        // objects of Rational print as num/den (e.g., 2/3)
+        String rep = num + " / " + den;
+        return rep;
+        
+        // could also do in one line like this:
+        //return num + " / " + den;
+    }
 }

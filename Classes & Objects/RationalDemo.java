@@ -10,11 +10,15 @@ public class RationalDemo{
 //         System.out.println(r2.getNum() + " / " + r2.getDen());
         
         Rational r3 = new Rational(2, 3);
-        System.out.println(r3.getNum() + " / " + r3.getDen());
-        r3.negate();
-        System.out.println(r3.getNum() + " / " + r3.getDen());
-        r3.invert();
-        System.out.println(r3.getNum() + " / " + r3.getDen());
+  //       System.out.println(r3.getNum() + " / " + r3.getDen());
+//         r3.negate();
+//         System.out.println(r3.getNum() + " / " + r3.getDen());
+//         r3.invert();
+//         System.out.println(r3.getNum() + " / " + r3.getDen());
+        
+        System.out.println(r3);
+        String stuff = "This number = " + r3;
+        System.out.println(stuff);
         
     }
 }
