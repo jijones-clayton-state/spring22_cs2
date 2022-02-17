@@ -77,4 +77,15 @@ public class Rational{
         // could also do in one line like this:
         //return num + " / " + den;
     }
+    
+    // equals method for comparing 2 objects of the Rational class
+    public boolean equals(Rational that){
+        // if(this.num == that.num && this.den == that.den){
+//             return true;
+//         }
+//         else{
+//             return false;
+        // }
+        return this.num == that.num && this.den == that.den;
+    }
 }
