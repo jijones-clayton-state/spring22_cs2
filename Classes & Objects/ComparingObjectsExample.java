@@ -10,6 +10,7 @@ public class ComparingObjectsExample{
         
         
         System.out.println(r1 == r2);
+        System.out.println(r1.equals(r2));
         
     }
 }
