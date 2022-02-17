@@ -88,4 +88,11 @@ public class Rational{
         // }
         return this.num == that.num && this.den == that.den;
     }
+    
+    // copy constructor for creating a new object
+    // based on an existing one
+    public Rational(Rational that){
+        this.num = that.num;
+        this.den = that.den;
+    }
 }
