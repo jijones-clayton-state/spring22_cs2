@@ -92,7 +92,12 @@ public class Rational{
     // copy constructor for creating a new object
     // based on an existing one
     public Rational(Rational that){
-        this.num = that.num;
-        this.den = that.den;
+        // this.num = that.num;
+//         this.den = that.den;
+
+        // could also get java to do the work for you!
+        // call the existing constructor Rational(int num, int den)
+        // by using the keyword 'this'
+        this(that.num, that.den);
     }
 }
